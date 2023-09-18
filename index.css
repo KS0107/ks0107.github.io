@@ -19,9 +19,10 @@
 }
 .home-navbar {
   width: 100%;
+  height: 100px;
   display: flex;
   max-width: 100%;
-  box-shadow: 5px 5px 10px 0px;
+  min-height: auto;
   transition: 0.3s;
   align-items: center;
   padding-top: var(--dl-space-space-tripleunit);
@@ -168,7 +169,7 @@
 }
 .home-hero {
   width: 100%;
-  height: 765px;
+  height: 623px;
   display: flex;
   position: relative;
   max-width: var(--dl-size-size-maxcontent);
@@ -185,6 +186,7 @@
 }
 .home-hero-text-container {
   width: 80%;
+  height: 601px;
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -328,6 +330,7 @@
 }
 .home-features {
   width: 100%;
+  height: 1023px;
   display: flex;
   max-width: 80%;
   margin-top: var(--dl-space-space-fiveunits);
@@ -383,8 +386,9 @@
   font-weight: 700;
 }
 .home-link08 {
-  width: 163px;
-  height: 61px;
+  width: 15%;
+  height: auto;
+  min-width: 100px;
   font-style: normal;
   margin-top: var(--dl-space-space-fourunits);
   transition: 0.3s;
@@ -431,8 +435,9 @@
   font-weight: 700;
 }
 .home-link09 {
-  width: 162px;
-  height: 60px;
+  width: 15%;
+  height: auto;
+  min-width: 150px;
   font-style: normal;
   transition: 0.3s;
   font-weight: 700;
@@ -500,8 +505,8 @@
   flex-direction: column;
 }
 .home-button {
-  width: 92px;
-  height: 44px;
+  width: 40%;
+  height: auto;
   align-self: center;
   margin-top: var(--dl-space-space-doubleunit);
   text-align: center;
@@ -513,7 +518,8 @@
   background-color: var(--dl-color-gray-black);
 }
 .home-link10 {
-  width: auto;
+  width: 40%;
+  height: auto;
   align-self: center;
   margin-top: var(--dl-space-space-doubleunit);
   text-align: center;
@@ -526,7 +532,8 @@
   background-color: var(--dl-color-primary-500);
 }
 .home-link11 {
-  width: auto;
+  width: 40%;
+  height: auto;
   align-self: center;
   margin-top: var(--dl-space-space-doubleunit);
   text-align: center;
@@ -711,6 +718,13 @@
   .home-icon {
     fill: var(--dl-color-gray-white);
   }
+  .home-container2 {
+    margin-top: 111px;
+  }
+  .home-heading2 {
+    margin-top: var(--dl-space-space-tenunits);
+    padding-top: 0px;
+  }
   .home-text02 {
     text-align: justify;
   }
@@ -747,14 +761,20 @@
   }
   .home-card {
     width: 70%;
+    height: auto;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
   .home-card1 {
     width: 70%;
+    height: auto;
     margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .home-content-container1 {
+    height: auto;
   }
   .home-card2 {
     width: 70%;
+    height: auto;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
   .home-banner2 {
@@ -809,6 +829,7 @@
   }
   .home-card2 {
     width: 100%;
+    margin-top: var(--dl-space-space-tenunits);
   }
   .home-banner2 {
     padding-top: 32px;
