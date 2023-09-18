@@ -798,6 +798,12 @@
   .home-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }
+  .home-hero {
+    height: 912px;
+    margin-top: var(--dl-space-space-tenunits);
+    min-height: 1000px;
+    margin-bottom: var(--dl-space-space-tenunits);
+  }
   .home-hero-text-container {
     width: 100%;
   }
