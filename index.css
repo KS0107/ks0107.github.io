@@ -199,10 +199,18 @@
   justify-content: center;
 }
 .home-heading2 {
+  font-size: 48px;
   font-family: Overpass;
+  font-weight: 900;
+  line-height: 1.22;
   margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
 }
-.home-text02 {
+.home-text03 {
+  color: var(--dl-color-primary-500);
+}
+.home-text04 {
   font-style: normal;
   margin-top: var(--dl-space-space-tripleunit);
   text-align: justify;
@@ -279,7 +287,7 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-black);
 }
-.home-text07 {
+.home-text09 {
   color: #ffffff;
   align-self: center;
   text-align: center;
@@ -287,7 +295,7 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text08 {
+.home-text10 {
   color: rgb(255, 255, 255);
   font-style: normal;
   text-align: justify;
@@ -327,14 +335,14 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-black);
 }
-.home-text09 {
+.home-text11 {
   color: #ffffff;
   text-align: center;
   font-family: Overpass;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text10 {
+.home-text12 {
   color: rgb(255, 255, 255);
   align-self: center;
   font-style: normal;
@@ -364,7 +372,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text11 {
+.home-text13 {
   height: 38px;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -389,12 +397,12 @@
   font-family: Overpass;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text12 {
+.home-text14 {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
 }
-.home-text14 {
+.home-text16 {
   font-style: normal;
   text-align: justify;
   font-family: Overpass;
@@ -446,7 +454,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-text15 {
+.home-text17 {
   color: var(--dl-color-gray-black);
   font-style: normal;
   text-align: justify;
@@ -497,7 +505,7 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text21 {
+.home-text23 {
   font-style: normal;
   text-align: justify;
   font-family: Overpass;
@@ -512,7 +520,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.home-text25 {
+.home-text27 {
   width: 324px;
   height: 62px;
   font-size: 3rem;
@@ -625,7 +633,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text35 {
+.home-text37 {
   color: #a1ecff;
   font-family: Overpass;
 }
@@ -673,7 +681,7 @@
   .home-heading2 {
     text-align: center;
   }
-  .home-text02 {
+  .home-text04 {
     text-align: center;
   }
   .home-banner {
@@ -685,7 +693,7 @@
     margin-right: 0px;
     margin-bottom: 48px;
   }
-  .home-text08 {
+  .home-text10 {
     text-align: center;
     margin-left: 48px;
   }
@@ -705,14 +713,14 @@
     margin-right: 0px;
     margin-bottom: 48px;
   }
-  .home-text10 {
+  .home-text12 {
     text-align: center;
     margin-left: 48px;
   }
   .home-features {
     height: 1152px;
   }
-  .home-text11 {
+  .home-text13 {
     text-align: center;
   }
   .home-card {
@@ -759,7 +767,7 @@
     margin-top: var(--dl-space-space-tenunits);
     padding-top: 0px;
   }
-  .home-text02 {
+  .home-text04 {
     text-align: justify;
   }
   .home-cta-btn {
@@ -775,7 +783,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .home-text08 {
+  .home-text10 {
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
@@ -783,7 +791,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .home-text10 {
+  .home-text12 {
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
@@ -824,7 +832,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text35 {
+  .home-text37 {
     margin-bottom: 24px;
   }
 }
@@ -839,7 +847,7 @@
     width: 100%;
     height: 716px;
   }
-  .home-text02 {
+  .home-text04 {
     font-style: normal;
     font-family: Overpass;
     font-weight: 300;
@@ -860,7 +868,7 @@
     height: 518px;
     margin-top: var(--dl-space-space-tenunits);
   }
-  .home-text08 {
+  .home-text10 {
     color: rgb(255, 255, 255);
     font-style: normal;
     font-family: Overpass;
@@ -884,7 +892,7 @@
     width: 377px;
     margin-top: var(--dl-space-space-fourunits);
   }
-  .home-text10 {
+  .home-text12 {
     color: rgb(255, 255, 255);
     font-style: normal;
     font-family: Overpass;
@@ -914,7 +922,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text35 {
+  .home-text37 {
     text-align: center;
     margin-bottom: 24px;
   }
