@@ -22,7 +22,7 @@
   height: 10%;
   display: flex;
   max-width: 100%;
-  box-shadow: 5px 5px 0px 0px #d4d4d4;
+  box-shadow: 5px 5px 0px 0px #a1ceff;
   min-height: auto;
   transition: 0.3s;
   align-items: center;
@@ -207,10 +207,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-text03 {
-  color: var(--dl-color-primary-500);
-}
-.home-text04 {
+.home-text02 {
   font-style: normal;
   margin-top: var(--dl-space-space-tripleunit);
   text-align: justify;
@@ -287,7 +284,7 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-black);
 }
-.home-text09 {
+.home-text07 {
   color: #ffffff;
   align-self: center;
   text-align: center;
@@ -295,7 +292,7 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text10 {
+.home-text08 {
   color: rgb(255, 255, 255);
   font-style: normal;
   text-align: justify;
@@ -335,14 +332,14 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-black);
 }
-.home-text11 {
+.home-text09 {
   color: #ffffff;
   text-align: center;
   font-family: Overpass;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text12 {
+.home-text10 {
   color: rgb(255, 255, 255);
   align-self: center;
   font-style: normal;
@@ -372,7 +369,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text13 {
+.home-text11 {
   height: 38px;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -397,12 +394,12 @@
   font-family: Overpass;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text14 {
+.home-text12 {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
 }
-.home-text16 {
+.home-text14 {
   font-style: normal;
   text-align: justify;
   font-family: Overpass;
@@ -454,7 +451,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-text17 {
+.home-text15 {
   color: var(--dl-color-gray-black);
   font-style: normal;
   text-align: justify;
@@ -505,7 +502,7 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text23 {
+.home-text21 {
   font-style: normal;
   text-align: justify;
   font-family: Overpass;
@@ -520,7 +517,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.home-text27 {
+.home-text25 {
   width: 324px;
   height: 62px;
   font-size: 3rem;
@@ -633,7 +630,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text37 {
+.home-text35 {
   color: #a1ecff;
   font-family: Overpass;
 }
@@ -681,7 +678,7 @@
   .home-heading2 {
     text-align: center;
   }
-  .home-text04 {
+  .home-text02 {
     text-align: center;
   }
   .home-banner {
@@ -693,7 +690,7 @@
     margin-right: 0px;
     margin-bottom: 48px;
   }
-  .home-text10 {
+  .home-text08 {
     text-align: center;
     margin-left: 48px;
   }
@@ -713,14 +710,14 @@
     margin-right: 0px;
     margin-bottom: 48px;
   }
-  .home-text12 {
+  .home-text10 {
     text-align: center;
     margin-left: 48px;
   }
   .home-features {
     height: 1152px;
   }
-  .home-text13 {
+  .home-text11 {
     text-align: center;
   }
   .home-card {
@@ -767,7 +764,7 @@
     margin-top: var(--dl-space-space-tenunits);
     padding-top: 0px;
   }
-  .home-text04 {
+  .home-text02 {
     text-align: justify;
   }
   .home-cta-btn {
@@ -783,7 +780,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .home-text10 {
+  .home-text08 {
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
@@ -791,7 +788,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .home-text12 {
+  .home-text10 {
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
@@ -832,7 +829,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text37 {
+  .home-text35 {
     margin-bottom: 24px;
   }
 }
@@ -847,7 +844,7 @@
     width: 100%;
     height: 716px;
   }
-  .home-text04 {
+  .home-text02 {
     font-style: normal;
     font-family: Overpass;
     font-weight: 300;
@@ -868,7 +865,7 @@
     height: 518px;
     margin-top: var(--dl-space-space-tenunits);
   }
-  .home-text10 {
+  .home-text08 {
     color: rgb(255, 255, 255);
     font-style: normal;
     font-family: Overpass;
@@ -892,7 +889,7 @@
     width: 377px;
     margin-top: var(--dl-space-space-fourunits);
   }
-  .home-text12 {
+  .home-text10 {
     color: rgb(255, 255, 255);
     font-style: normal;
     font-family: Overpass;
@@ -922,7 +919,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text37 {
+  .home-text35 {
     text-align: center;
     margin-bottom: 24px;
   }
